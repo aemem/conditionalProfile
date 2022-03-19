@@ -1,3 +1,11 @@
+Hice que los cambios en los campos de formulario funcionaran y aparecieran en el widget.
+
+En los campos de texto lo hice usando operadores ternarios en los que si la condición era true apareciera lo escrito en el formulario (la variable) y si era false (si el campo está vacío) apareciera un string como contenido por defecto en vez de null.
+
+En los campos con un dropdown hice lo mismo para cambiar la opción por defecto (null) por un string.
+
+
+
 # Conditional Profile Card
 
 Note: Make sure that you have node.js installed in your computer by typing in your terminal:
