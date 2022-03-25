@@ -41,18 +41,18 @@ function render(variables = {}) {
     variables.country ? variables.country : "country"
   }</h3>
           <ul class="${variables.socialMediaPosition}">
-            <li><a href="https://twitter.com/4geeksacademy"><i class="fab fa-twitter"></i>${
+            <li><a href="${
               variables.twitter ? variables.twitter : "twitter"
-            } </a></li>
-            <li><a href="https://github.com/4geeksacademy"><i class="fab fa-github"></i>${
+            }"><i class="fab fa-twitter"></i>Twitter</a></li>
+            <li><a href="${
               variables.github ? variables.github : "git"
-            }</a></li>
-            <li><a href="https://linkedin.com/4geeksacademy"><i class="fab fa-linkedin"></i>${
+            }"><i class="fab fa-github"></i>GitHub</a></li>
+            <li><a href="${
               variables.linkedin ? variables.linkedin : "Linkedin"
-            }</a></li>
-            <li><a href="https://instagram.com/4geeksacademy"><i class="fab fa-instagram"></i>${
+            }"><i class="fab fa-linkedin"></i>LinkedIn</a></li>
+            <li><a href="${
               variables.instagram ? variables.instagram : "Instagram"
-            }</a></li>
+            }"><i class="fab fa-instagram"></i>Instagram</a></li>
           </ul>
         </div>`;
 }
